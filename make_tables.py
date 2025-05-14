@@ -82,172 +82,179 @@ def savetables(nmls, fname, url):
         nmltab.nmldiff(nmld)
         fname += "_diff"
 
-savetables([
-        'dev-MC_100km_jra_ryf/ice_in',
-        'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
-        ],
-        'ice_in/cice',
-        'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
+# savetables([
+#         'dev-MC_100km_jra_ryf/ice_in',
+#         'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
+#         ],
+#         'ice_in/cice',
+#         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/ice_in',
+#         'dev-MC_25km_jra_ryf/ice_in',
+#         'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
+#         ],
+#         'ice_in/cice_1_025',
+#         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/ice_in',
+#         'dev-MC_100km_jra_iaf/ice_in',
+#         'dev-MC_25km_jra_ryf/ice_in',
+#         ],
+#         'ice_in/MOM6-CICE6',
+#         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+#         'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+#         'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+#         ],
+#         'MOM_input/MOM6-CICE6',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/MOM_input',
+#         'gmom_jra/MOM_input',
+#         ],
+#         'MOM_input/MOM6-CICE6-CESM',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MCW_100km_jra_ryf/MOM_input',
+#         'dev-MCW_100km_jra_iaf/MOM_input',
+#         ],
+#         'MOM_input/MOM6-CICE6-WW3',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MCW_100km_jra_ryf/MOM_input',
+#         'gmom_jra_wd/MOM_input',
+#         ],
+#         'MOM_input/MOM6-CICE6-WW3-CESM',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/MOM_input',
+#         'dev-MCW_100km_jra_ryf/MOM_input',
+#         ],
+#         'MOM_input/MOM6-CICE6_MOM6-CICE6-WW3',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/MOM_input',
+#         'mom6-om4-025/MOM_input',
+#         'mom6-panan/MOM_input',
+#         # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
+#         #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+#         'MOM6-examples/ocean_only/global/MOM_input',
+#         # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.short',
+#         ],
+#         'MOM_input/mom6',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'dev-MC_100km_jra_ryf/MOM_input',
+#         'mom6-om4-025/MOM_input',
+#         'MOM6-examples/ocean_only/global/MOM_input',
+#         ],
+#         'MOM_input/mom6_global',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'mom6-panan/MOM_input',
+#         'mom6-eac/MOM_input'
+#         ],
+#         'MOM_input/mom6_regional',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+#         'ACCESS-OM2_025deg_jra55_ryf/ocean/input.nml',
+#         'ACCESS-OM2_01deg_jra55_ryf/ocean/input.nml',
+#         ],
+#         'MOM_input/ACCESS-OM2-1-025-01',
+#         'https://github.com/mom-ocean/MOM5/search?q=')
+
+# savetables( [
+#         'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+#         'ACCESS-OM2_025deg_jra55_ryf/ocean/input.nml',
+#         ],
+#         'MOM_input/ACCESS-OM2-1-025',
+#         'https://github.com/mom-ocean/MOM5/search?q=')
+
+# savetables( [
+#         'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
+#         'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
+#         'ACCESS-OM2_01deg_jra55_ryf/ice/cice_in.nml',
+#         ],
+#         'ice_in/ACCESS-OM2-1-025-01',
+#         'https://github.com/COSIMA/cice5/search?q=')
+
+# savetables( [
+#         'ACCESS-OM2_01deg_jra55v13_ryf9091/ocean/input.nml',
+#         'ACCESS-OM2_release-01deg_jra55_ryf/ocean/input.nml',
+#         ],
+#         'MOM_input/ACCESS-OM2_01deg_jra55v13_ryf9091',
+#         'https://github.com/mom-ocean/MOM5/search?q=')
+
+# savetables( [
+#         'ACCESS-OM2_01deg_jra55v13_ryf9091/ice/cice_in.nml',
+#         'ACCESS-OM2_release-01deg_jra55_ryf/ice/cice_in.nml',
+#         ],
+#         'ice_in/ACCESS-OM2_01deg_jra55v13_ryf9091',
+#         'https://github.com/COSIMA/cice5/search?q=')
+
+# savetables( [
+#         'GFDL-OM5/b00_MOM_parameter_doc.all',
+#         'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+#         ],
+#         'MOM_input/GFDL-OM5',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+#         ],
+#         'MOM_input/GFDL-OM5-update',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.all',
+#         # 'MOM6-examples/ice_ocean_SIS2/OM_1deg/MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all',
+#         'GFDL-OM5/b00_MOM_parameter_doc.all',
+#         'GFDL-OM5/b03_update_MOM_parameter_doc.all'
+#         ],
+#         'MOM_input/GFDL-OM4-OM5',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+#         'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+#         'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+#         'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+#         ],
+#         'MOM_input/GFDL-OM5_ACCESS-OM3',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
+
+# savetables( [
+#         # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+#         'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+#         # 'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+#         # 'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+#         # 'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+#         'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+#         ],
+#         'MOM_input/GFDL-OM5_ACCESS-OM3_25km',
+#         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'dev-MC_100km_jra_ryf/ice_in',
-        'dev-MC_25km_jra_ryf/ice_in',
-        'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
+        'ACCESS-OM3-updated/MOM_parameter_doc.all',
+        'ACCESS-OM3-updated/Breichl-OM5-025.all',
         ],
-        'ice_in/cice_1_025',
-        'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/ice_in',
-        'dev-MC_100km_jra_iaf/ice_in',
-        'dev-MC_25km_jra_ryf/ice_in',
-        ],
-        'ice_in/MOM6-CICE6',
-        'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
-        'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
-        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
-        ],
-        'MOM_input/MOM6-CICE6',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/MOM_input',
-        'gmom_jra/MOM_input',
-        ],
-        'MOM_input/MOM6-CICE6-CESM',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MCW_100km_jra_ryf/MOM_input',
-        'dev-MCW_100km_jra_iaf/MOM_input',
-        ],
-        'MOM_input/MOM6-CICE6-WW3',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MCW_100km_jra_ryf/MOM_input',
-        'gmom_jra_wd/MOM_input',
-        ],
-        'MOM_input/MOM6-CICE6-WW3-CESM',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/MOM_input',
-        'dev-MCW_100km_jra_ryf/MOM_input',
-        ],
-        'MOM_input/MOM6-CICE6_MOM6-CICE6-WW3',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/MOM_input',
-        'mom6-om4-025/MOM_input',
-        'mom6-panan/MOM_input',
-        # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
-        #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
-        'MOM6-examples/ocean_only/global/MOM_input',
-        # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.short',
-        ],
-        'MOM_input/mom6',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'dev-MC_100km_jra_ryf/MOM_input',
-        'mom6-om4-025/MOM_input',
-        'MOM6-examples/ocean_only/global/MOM_input',
-        ],
-        'MOM_input/mom6_global',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'mom6-panan/MOM_input',
-        'mom6-eac/MOM_input'
-        ],
-        'MOM_input/mom6_regional',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
-        'ACCESS-OM2_025deg_jra55_ryf/ocean/input.nml',
-        'ACCESS-OM2_01deg_jra55_ryf/ocean/input.nml',
-        ],
-        'MOM_input/ACCESS-OM2-1-025-01',
-        'https://github.com/mom-ocean/MOM5/search?q=')
-
-savetables( [
-        'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
-        'ACCESS-OM2_025deg_jra55_ryf/ocean/input.nml',
-        ],
-        'MOM_input/ACCESS-OM2-1-025',
-        'https://github.com/mom-ocean/MOM5/search?q=')
-
-savetables( [
-        'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
-        'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
-        'ACCESS-OM2_01deg_jra55_ryf/ice/cice_in.nml',
-        ],
-        'ice_in/ACCESS-OM2-1-025-01',
-        'https://github.com/COSIMA/cice5/search?q=')
-
-savetables( [
-        'ACCESS-OM2_01deg_jra55v13_ryf9091/ocean/input.nml',
-        'ACCESS-OM2_release-01deg_jra55_ryf/ocean/input.nml',
-        ],
-        'MOM_input/ACCESS-OM2_01deg_jra55v13_ryf9091',
-        'https://github.com/mom-ocean/MOM5/search?q=')
-
-savetables( [
-        'ACCESS-OM2_01deg_jra55v13_ryf9091/ice/cice_in.nml',
-        'ACCESS-OM2_release-01deg_jra55_ryf/ice/cice_in.nml',
-        ],
-        'ice_in/ACCESS-OM2_01deg_jra55v13_ryf9091',
-        'https://github.com/COSIMA/cice5/search?q=')
-
-savetables( [
-        'GFDL-OM5/b00_MOM_parameter_doc.all',
-        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
-        ],
-        'MOM_input/GFDL-OM5',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
-        ],
-        'MOM_input/GFDL-OM5-update',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.all',
-        # 'MOM6-examples/ice_ocean_SIS2/OM_1deg/MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all',
-        'GFDL-OM5/b00_MOM_parameter_doc.all',
-        'GFDL-OM5/b03_update_MOM_parameter_doc.all'
-        ],
-        'MOM_input/GFDL-OM4-OM5',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
-        'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
-        'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
-        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
-        ],
-        'MOM_input/GFDL-OM5_ACCESS-OM3',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
-        # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
-        'MOM6-examples/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
-        # 'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
-        # 'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
-        # 'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
-        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
-        ],
-        'MOM_input/GFDL-OM5_ACCESS-OM3_25km',
+        'MOM_comparison/GFDL-OM5_ACCESS-OM3_25km',
         'https://github.com/mom-ocean/MOM6/search?q=')
