@@ -1,0 +1,30 @@
+| Variable                  | [dev-MC_25km_jra_ryf/<br>docs/<br>MOM_parameter_doc.all](https://github.com/ACCESS-NRI/access-om3-configs/blob/408715d5f0a53b105de1ec33cf5676c5d5211ee1/docs/MOM_parameter_doc.all) | [25km_only_neutral_diffusion/<br>docs/<br>MOM_parameter_doc.all](git@github.com:minghangli-uni/access-om3-configs/blob/b72487fb1660929ea185b550fdd86a53610af337/docs/MOM_parameter_doc.all) | [25km_choice2/<br>docs/<br>MOM_parameter_doc.all](git@github.com:minghangli-uni/access-om3-configs/blob/c24259c36d3b3b7bdca44a2bc3db23276ea82e0a/docs/MOM_parameter_doc.all) |
+| :------------------------ | --------------: | --------------: | --------------: |
+| [**num_diag_coords**      ](https://github.com/mom-ocean/MOM6/search?q=num_diag_coords) |               2 |               1 |               1 |
+| [**diag_coords**          ](https://github.com/mom-ocean/MOM6/search?q=diag_coords) | ['z Z ZSTAR', '<br>rho2 RHO2 RHO'] | 'z Z ZSTAR' | 'z Z ZSTAR' |
+| [**meke_khth_fac**        ](https://github.com/mom-ocean/MOM6/search?q=meke_khth_fac) |             0.0 |             0.0 |             0.5 |
+| [**meke_khtr_fac**        ](https://github.com/mom-ocean/MOM6/search?q=meke_khtr_fac) |             0.0 |             0.0 |             0.5 |
+| [**meke_viscosity_coeff_<br>ku**](https://github.com/mom-ocean/MOM6/search?q=meke_viscosity_coeff_ku) |       0.0 |             0.0 |             1.0 |
+| [**khth_use_ebt_struct**  ](https://github.com/mom-ocean/MOM6/search?q=khth_use_ebt_struct) |           False |           False |            True |
+| [**resoln_n2_filter_dept<br>h**](https://github.com/mom-ocean/MOM6/search?q=resoln_n2_filter_depth) |            |                 |            -1.0 |
+| [**kh_res_fn_power**      ](https://github.com/mom-ocean/MOM6/search?q=kh_res_fn_power) |               2 |               2 |             100 |
+| [**visc_res_fn_power**    ](https://github.com/mom-ocean/MOM6/search?q=visc_res_fn_power) |               2 |               2 |             100 |
+| [**khth_use_fgnv_streamf<br>unction**](https://github.com/mom-ocean/MOM6/search?q=khth_use_fgnv_streamfunction) | False |          False |            True |
+| [**fgnv_filter_scale**    ](https://github.com/mom-ocean/MOM6/search?q=fgnv_filter_scale) |                 |                 |             0.1 |
+| [**fgnv_c_min**           ](https://github.com/mom-ocean/MOM6/search?q=fgnv_c_min) |                 |                 |             0.0 |
+| [**fgnv_strat_floor**     ](https://github.com/mom-ocean/MOM6/search?q=fgnv_strat_floor) |                 |                 |           1e-15 |
+| [**kh_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=kh_vel_scale) |             0.0 |             0.0 |            0.01 |
+| [**kh_sin_lat**           ](https://github.com/mom-ocean/MOM6/search?q=kh_sin_lat) |             0.0 |             0.0 |          2000.0 |
+| [**kh_pwr_of_sine**       ](https://github.com/mom-ocean/MOM6/search?q=kh_pwr_of_sine) |                 |                 |             4.0 |
+| [**khtr**                 ](https://github.com/mom-ocean/MOM6/search?q=khtr) |             0.0 |             0.0 |            50.0 |
+| [**use_neutral_diffusion**](https://github.com/mom-ocean/MOM6/search?q=use_neutral_diffusion) |           False |            True |            True |
+| [**ndiff_continuous**     ](https://github.com/mom-ocean/MOM6/search?q=ndiff_continuous) |                 |            True |            True |
+| [**ndiff_ref_pres**       ](https://github.com/mom-ocean/MOM6/search?q=ndiff_ref_pres) |                 |            -1.0 |            -1.0 |
+| [**ndiff_interior_only**  ](https://github.com/mom-ocean/MOM6/search?q=ndiff_interior_only) |                 |           False |           False |
+| [**ndiff_use_unmasked_tr<br>ansport_bug**](https://github.com/mom-ocean/MOM6/search?q=ndiff_use_unmasked_transport_bug) |  |           False |           False |
+| [**ndiff_answer_date**    ](https://github.com/mom-ocean/MOM6/search?q=ndiff_answer_date) |                 |        20240101 |        20240101 |
+| [**diag_coord_interp_sch<br>eme_rho2**](https://github.com/mom-ocean/MOM6/search?q=diag_coord_interp_scheme_rho2) | 'PPM_H4' |            |                 |
+| [**regridding_answer_dat<br>e**](https://github.com/mom-ocean/MOM6/search?q=regridding_answer_date) |   99991231 |                 |                 |
+| [**diag_coord_def_rho2**  ](https://github.com/mom-ocean/MOM6/search?q=diag_coord_def_rho2) | 'RFNC1:76,999.5<br>,1020.,1034.1,3<br>.1,1041.,0.002' |  |  |
+| [**diag_coord_p_ref_rho2**](https://github.com/mom-ocean/MOM6/search?q=diag_coord_p_ref_rho2) |      20000000.0 |                 |                 |
+| [**diag_coord_regrid_com<br>pressibility_fraction<br>_rho2**](https://github.com/mom-ocean/MOM6/search?q=diag_coord_regrid_compressibility_fraction_rho2) | 0.0 |  |          |

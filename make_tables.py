@@ -258,3 +258,18 @@ savetables( [
         ],
         'MOM_comparison/GFDL-OM5_ACCESS-OM3_25km',
         'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'MOM6-examples-om4-comparison-0.5-0.25deg/om4-0.25deg-MOM_parameter_doc.all',
+        'MOM6-examples-om4-comparison-0.5-0.25deg/om4-0.5deg-MOM_parameter_doc.all',
+        ],
+        'MOM_comparison_OM4_0.25_0.5/GFDL-OM4',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+        '25km_only_neutral_diffusion/docs/MOM_parameter_doc.all',
+        '25km_choice2/docs/MOM_parameter_doc.all',
+        ],
+        'MOM_input/meso-related',
+        'https://github.com/mom-ocean/MOM6/search?q=')
