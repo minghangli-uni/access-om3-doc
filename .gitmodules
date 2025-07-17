@@ -66,3 +66,7 @@
 	path = configs/MOM6-examples-breichl
 	url = https://github.com/breichl/MOM6-examples.git
 	branch = Baltic_OM5
+[submodule "configs/25km_choice2"]
+	path = configs/25km_choice2
+	url = git@github.com:minghangli-uni/access-om3-configs.git
+	branch = choice2
