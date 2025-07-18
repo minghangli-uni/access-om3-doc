@@ -273,3 +273,11 @@ savetables( [
         ],
         'MOM_input/meso-related',
         'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+        '25km_choice2/docs/MOM_parameter_doc.all',
+        '25km_old_control_run/docs/MOM_parameter_doc.all',
+        ],
+        'MOM_input/meso-related-',
+        'https://github.com/mom-ocean/MOM6/search?q=')
