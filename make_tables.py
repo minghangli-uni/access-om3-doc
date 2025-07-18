@@ -279,5 +279,5 @@ savetables( [
         '25km_choice2/docs/MOM_parameter_doc.all',
         '25km_old_control_run/docs/MOM_parameter_doc.all',
         ],
-        'MOM_input/meso-related-',
+        'MOM_input/meso-related2',
         'https://github.com/mom-ocean/MOM6/search?q=')
