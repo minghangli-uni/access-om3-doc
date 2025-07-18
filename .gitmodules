@@ -74,3 +74,7 @@
 	path = configs/25km_only_neutral_diffusion
 	url = git@github.com:minghangli-uni/access-om3-configs.git
 	branch = choice2_only_neutral_diffusion
+[submodule "configs/25km_old_control_run"]
+	path = configs/25km_old_control_run
+	url = git@github.com:minghangli-uni/access-om3-configs.git
+	branch = 25km_old_control_run
